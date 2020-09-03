@@ -1,0 +1,9 @@
+[submodule "common"]
+	path = common
+	url = https://github.com/ipdeveloper/weberp
+[submodule "webinfra"]
+	path = webinfra
+	url = https://github.com/ipdeveloper/weberp
+[submodule "infra"]
+	path = infra
+	url = https://github.com/ipdeveloper/weberp
