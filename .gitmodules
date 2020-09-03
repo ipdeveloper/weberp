@@ -3,3 +3,6 @@
 	url = https://github.com/ipdeveloper/weberp
 [submodule "webinfra"]
 	path = webinfra
+[submodule "formula"]
+	path = formula
+	url = https://github.com/ipdeveloper/weberp
