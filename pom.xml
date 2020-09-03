@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>1.0.0</modelVersion>
+    <groupId>org.dpdouran</groupId>
+    <artifactId>erp</artifactId>
+    <version>1.0.0</version>
+    <packaging>war</packaging>
+    <name>parent</name>
+    <description>Parent project for podcastpedia.org website, and the web admin application</description>
+    <url>http://www.podcastpedia.org</url>
+
+    <organization>
+        <name>Douran Group</name>
+        <url>http://www.douran.com</url>
+    </organization>
+
+    <developers>
+        <developer>
+            <id>pourreza</id>
+            <name>Iman Pourreza</name>
+            <organization>Douran Group</organization>
+            <email>pourreza@gmail.com</email>
+            <organizationUrl>http://www.douran.com</organizationUrl>
+            <timezone>+1</timezone>
+            <roles>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spring.version>4.1.7.RELEASE</spring.version>
+    <tiles.version>3.0.4</tiles.version>
+    <spring-security.version>4.0.2.RELEASE</spring-security.version>
+    <mybatis-spring.version>1.2.3</mybatis-spring.version>
+    <mybatis.version>3.3.0</mybatis.version>
+    <junit.version>4.11</junit.version>
+    <jetty.version>9.1.5.v20140505</jetty.version> <!-- Adapt this to a version found on http://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-maven-plugin/ -->
+
+    <ehcache.version>2.9.0</ehcache.version>
+    <tomcat.jdbc.version>7.0.57</tomcat.jdbc.version>
+    <java.mail.version>1.4.7</java.mail.version>
+    <jackson-jaxrs.version>2.4.4</jackson-jaxrs.version>
+    <maven.war.plugin.version>2.6</maven.war.plugin.version>
+    <maven.compiler.plugin.version>3.3</maven.compiler.plugin.version>
+    <maven.failsafe.plugin.version>2.18.1</maven.failsafe.plugin.version>
+    <mysql-connector-java.version>5.1.37</mysql-connector-java.version>
+    <rome.version>1.5.0</rome.version>
+    <jsr250-api.version>1.0</jsr250-api.version>
+    <buildnumber-maven-plugin.version>1.4</buildnumber-maven-plugin.version>
+  </properties>
+
+    <licenses>
+        <license>
+            <name>License</name>
+            <url>MIT License -- url on GitHub</url>
+        </license>
+    </licenses>
+
+    
+  
+</project>
